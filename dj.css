@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+}
+
+.login-page{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    font-family: arial;
+    
+    
+    
+}
+.input{
+    height: 275px;
+    width: 20%;
+   text-align: center;
+   position: relative;
+   top: 300px;
+   border: 1px solid beige;
+   margin: auto;
+   border-radius: 30px;
+   backdrop-filter: blur(6px);
+   box-shadow: 0 0 20px 10px rgb(13, 96, 185);
+   
+   
+
+}
+body{
+    height: 800px;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/580/824/23/moon-night-nature-house-wallpaper-preview.jpg);
+    background-size: cover;
+}
+.button-input{
+    
+    text-align: center;
+    position: relative;
+    top: 25%;
+    margin-bottom: 6rem;
+    position: relative;
+    top: 3rem;
+    left: 1rem;
+    
+       
+   
+    
+    
+
+}
+.button-input .user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    width: 13rem;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color:white;
+    box-shadow: 0 0 20px 10px rgb(13, 96, 185);
+    
+    
+
+}
+.button-input .pass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 13rem;
+    bottom: 0.5rem;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color:white ;
+    box-shadow: 0 0 20px 10px rgb(13, 96, 185);
+}
+.button-input .but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    bottom: 7px;
+    left: 5rem;
+    width: 4rem;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color:white;
+    box-shadow: 0 0 20px 10px rgb(13, 96, 185);
+    
+}
+.button-input .for{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    position: relative;
+    right: 0.5rem;
+    bottom: 7px;
+    border-radius: 10px;
+    font-weight: bolder; 
+
+}
+h2{
+    position: relative;
+    top: 30px;
+    color: rgb(253, 253, 253);
+}
